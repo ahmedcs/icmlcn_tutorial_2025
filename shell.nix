@@ -16,10 +16,6 @@ pkgs.mkShellNoCC {
 
   buildInputs = with pkgs; [
 
-    # LaTeX
-    texliveFull
-    tex-fmt
-
     # Python
     python312
     uv
