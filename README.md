@@ -1,18 +1,15 @@
-# Federated Learning and Network Security: Foundations, Potential, and Resilience
+# Federated Learning for Intrusion Detection Systems
 
-> [!IMPORTANT]
-> Note: The repository currently hosts the existing materials from ICDCS 2024 as reference, but its content is being updated for the 2025 edition.
+This is a practical example which is delivered as part of the practical component for the tutorial titled "ADVANCING FEDERATED LEARNING IN PRACTICE: FROM THEORY TO REAL-WORLD EDGE APPLICATIONS" which is held at the [IEEE International Conference on Machine Learning for Communication and Network](https://icdcs2025.icdcs.org/) (IEEE ICMLCN 2025) in May 2025.
+This repository contains the materials, including the Jupyter notebooks and the presentations support, that have been used during the tutorial and is adopted from a previously delivered [tutorial in ICDCS 2024](https://github.com/leolavaur/icdcs_2025).
 
-This tutorial will be held at the [45th IEEE International Conference on Distributed Computing Systems](https://icdcs2025.icdcs.org/) (ICDCS 2025) in July 2025.
-This repository contains the materials, including the Jupyter notebooks and the presentations support, that have been used during the tutorial.
 You can find a published summary of the tutorial content in the conference proceedings.
 
 
 ## Abstract
 
 Federated Learning (FL) is a Machine Learning paradigm that enables training models across distributed clients without accessing their data.
-In the context of network security, FL can be used to collaboratively train Intrusion Detection System (IDS) models across multiple organizations, virtually extending the local dataset of each participant.
-Among the new challenges raised by this approach, the heterogeneity of the clients’ environments induce consequent differences in the data distributions, and therefore contributions.
+In the context of network security, FL can be used to collaboratively train Intrusion Detection System (IDS) models across multiple organizations, virtually extending the local dataset of each participant. Among the new challenges raised by this approach, the heterogeneity of the clients’ environments induce consequent differences in the data distributions, and therefore contributions.
 Further, identifying and mitigating malicious contributions is made more complex in heterogeneous environments.
 
 This tutorial introduces the audience to the principles of FL and its application to network security, and more specifically to build Collaborative Intrusion Detection Systems (CIDSs) using FL.
@@ -22,39 +19,13 @@ Finally, we discuss the issues raised by using FL in the context of network secu
 
 ## Speakers
 
-### Yann Busnel
+### Ahmed M. A. Sayed
 
 <p align="center">
-    <img src="./img/yann.png" alt="Yann Busnel - ICDCS 2025" style="width: 50%; max-width: 200px;">
+    <img src="./img/ahmed.jpg" alt="Ahmed M. A. Sayed - ICMLCN 2025" style="width: 50%; max-width: 200px;">
 </p>
 
-Yann Busnel is Senior Vice-President for Research at the Institut Mines-Télécom (IMT), France.
-With several years of experience within the IMT group, particularly at IMT Atlantique and IMT Nord Europe, he is responsible for developing and implementing the institution’s scientific strategy.
-His work involves fostering inter-affiliate collaborations, overseeing doctoral programs, managing the PhD diploma of IMT, and coordinating the activities of its 11 scientific communities.
-
-He has over 15 years of experience in research and higher education.
-Between June 2023 and September 2024, he served as Director of Research and Innovation at IMT Nord Europe.
-Before that, he has held various academic positions and responsibilities in France and abroad: Full Professor at IMT Atlantique, Associate Professor at ENSAI in Rennes, Assistant Professor the University of Nantes, and Sapienza University of Rome.
-
-His research topics are mainly related to Models for large-scale distributed systems and networks, with application in Data stream analysis, Cybersecurity, Massive health data and Artificial Intelligence. Recently, his areas of application range from (1) cybersecurity and dependability to (2) the analysis of medical data, in the context of pharmacovigilance or genomic sequence analysis, and (3) the self-organized coordination of fleets of drones. He has published over 100 articles in peer-reviewed journals and conferences. He has also coordinated several national and international collaborative research projects, and is currently a member of the steering committee of the French national research group on networks and distributed systems (GDR RSD).
-
-
-### Léo Lavaur
-
-<p align="center">
-    <img src="./img/leo.png" alt="Leo Lavaur - ICDCS 2025" style="width: 50%; max-width: 200px;">
-</p>
-
-Léo Lavaur is a Postdoctoral Researcher at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg.
-He received his Ph.D. in cybersecurity from IMT Atlantique, France, in 2024, where he focused on applying Federated Learning to Collaborative Intrusion Detection.
-During his Ph.D., he collaborated closely with the Chair on Cybersecurity in Critical Networked Infrastructures (Cyber CNI) and its industrial partners, who partially funded his research.
-He holds an Engineering degree in Information Security from ENSIBS, Vannes, France. During his studies, he also worked part-time at Orange Cyberdefense.
-
-His research explores various aspects of distributed system security, with a particular emphasis on collaborative knowledge sharing through machine learning.
-His contributions range from applying Federated Learning to network security to ensuring the security of FL architectures themselves.
-He also has ongoing research activities on dataset generation, model evaluation, and data-quality challenges in FL, as well as communication-efficient decentralized learning.
-He currently focuses on modeling causal dependencies in distributed microservice and GenAI architectures.
-
+Ahmed Sayed is an Associate Professor at the Queen Mary University of London, UK. He received his PhD in Computer Science and Engineering from the Hong Kong University of Science and Technology, HK in 2017. Formerly, he was a research scientist at KAUST, Saudi Arabia, and a senior researcher at Huawei's Future Networks Lab, HK. He is an investigator on projects totaling USD ~1.5mil in funding. His current research focus involves designing and prototyping Networked and Distributed Systems of the Future; in particular, he is interested in developing methods and techniques to improve and enhance the performance of networked and distributed systems. His current focus is on developing scalable and efficient systems supporting distributed machine Learning (esp., distributed privacy-preserving machine learning, aka. Federated Learning). His work appears in top-tier conferences and journals, including NeurIPS, AAAI, MLSys, ACM EuroSys, IEEE INFOCOM & ICDCS, IEEE/ACM ToN, IEEE IoTJ, IEEE TFIS, IEEE TCC, IEEE TBD Elsevier Computer Networks, Elsevier FGCS, Elsevier Internet of Things.
 
 ## Tutorial content
 
